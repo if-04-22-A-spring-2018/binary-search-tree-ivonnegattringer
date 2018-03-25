@@ -14,6 +14,7 @@
 #include "shortcut.h"
 #include "bst.h"
 #include "test_bst.h"
+#include "stdio.h"
 
 
 #define ELEMENTS_COUNT 14
@@ -88,6 +89,7 @@ static void add_all_elements(Bst* bst)
 {
 	for (int i = 0; i < ELEMENTS_COUNT; i++)
 		add(bst, elements_to_add[i]);
+
 }
 
 TEST(traversal_pre_order)
