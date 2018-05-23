@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="binary_search_tree_ivonnegattringer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binary_search_tree_ivonnegattringer">
+				<Option output="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/binary_search_tree_ivonnegattringer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_search_tree_ivonnegattringer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binary_search_tree_ivonnegattringer/fast">
+				<Option output="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/binary_search_tree_ivonnegattringer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_search_tree_ivonnegattringer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/bst.cpp">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/bst.h">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/bst_test_driver.cpp">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/general.cpp">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/general.h">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/mainpage.h">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/shortcut.cpp">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/shortcut.h">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/test_bst.cpp">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/test_bst.h">
+			<Option target="binary_search_tree_ivonnegattringer"/>
+		</Unit>
+		<Unit filename="/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

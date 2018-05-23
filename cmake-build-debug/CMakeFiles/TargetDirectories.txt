@@ -1,0 +1,3 @@
+/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ivonne/Documents/C/binary-search-tree-ivonnegattringer/cmake-build-debug/CMakeFiles/binary_search_tree_ivonnegattringer.dir

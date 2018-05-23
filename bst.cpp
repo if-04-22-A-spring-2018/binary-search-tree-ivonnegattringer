@@ -14,7 +14,7 @@
 #include "bst.h"
 #include <stdlib.h>
 #include "general.h"
-#define MAX 50
+#define MAXL 50
 
 struct Node{
   int data;
@@ -43,33 +43,16 @@ int get_depth(Bst bst){
 void add(Bst* bst, int value){
   Bst &aka = *bst;
   if(aka == 0){
-    aka = (Bst)malloc(sizeof(struct Node)); aka->data = value;
+    aka = (Bst)malloc(sizeof(struct Node));
+    aka->data = value;
     aka->left_subtree =0;
     aka->right_subtree =0;
   }
   else if(value <= aka->data){
-    if(aka->left_subtree == 0){
-      Bst newBst = (Bst)malloc(sizeof(struct Node));
-      aka->left_subtree = newBst;
-            newBst->data = value;
-      newBst->left_subtree = 0;
-      newBst->right_subtree = 0;
-    }
-    else{
       add(&aka->left_subtree, value);
-    }
   }
   else{
-    if(aka->right_subtree ==0){
-      Bst newBst = (Bst)malloc(sizeof(struct Node));
-      aka->right_subtree = newBst;
-        newBst->data = value;
-      newBst->left_subtree = 0;
-      newBst ->right_subtree = 0;
-    }
-    else{
       add(&aka->right_subtree,value);
-    }
   }
 }
 
@@ -115,9 +98,9 @@ int traverse_post_order(Bst bst, int *elements, int start){
 bool are_equal(Bst bst1, Bst bst2){
   if(bst1 == bst2)return true;
   if(bst1 != 0 && bst2 != 0){
-    int arr1[MAX];
+    int arr1[MAXL];
     int length = traverse_pre_order(bst1, arr1, 0);
-    int arr2[MAX];
+    int arr2[MAXL];
     int length2 = traverse_pre_order(bst2, arr2, 0);
     if(length == length2){
       bool x = true;
